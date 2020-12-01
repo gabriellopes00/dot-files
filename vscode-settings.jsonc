@@ -1,0 +1,63 @@
+{
+	"editor.wordWrap": "on",
+	"editor.lineHeight": 20,
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"editor.fontWeight": "100",
+	"tabnine.experimentalAutoImports": true,
+	"window.zoomLevel": 0,
+	"cSpell.language": "en,pt-BR,pt",
+	"editor.minimap.enabled": false,
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+	"explorer.confirmDelete": false,
+	"workbench.startupEditor": "newUntitledFile",
+	"vscode-mysql.resultTheme": "Dark",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorBlinking": "smooth",
+	"editor.tabSize": 2,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.rulers": [
+		80,
+		120
+	],
+	"sync.gist": "72a4aa47880e2b9088ce9cad270ee8e2",
+	"cSpell.userWords": [
+		"middlewares",
+		"typeorm",
+		"varchar"
+	],
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"workbench.sideBar.location": "left",
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"workbench.iconTheme": "material-icon-theme",
+	"material-icon-theme.folders.associations": {
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+		"dtos": "typescript",
+		"hidden": "private",
+		"restricted": "private",
+		"code": "src",
+		"files": "docs"
+  },
+
+	"workbench.colorTheme": "Dracula",
+
+	"colorize.files_extensions": [
+		".ts",
+		".js",
+		".tsx",
+		".jsx",
+		".vue",
+		".css"
+	],
+	"colorize.ignore_files_extensions_deprecation": true
+}
