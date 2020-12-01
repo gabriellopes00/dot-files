@@ -57,7 +57,8 @@
 		".tsx",
 		".jsx",
 		".vue",
-		".css"
+		".css",
+		".scss"
 	],
 	"colorize.ignore_files_extensions_deprecation": true
 }
