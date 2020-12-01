@@ -29,13 +29,14 @@
   "profiles": {
     "defaults": {
       // Put settings here that you want to apply to all profiles.
-      "fontSize": 12,
+      "fontSize": 11,
       "cursorColor": "#777",
       "padding": "20, 10",
       "cursorShape": "filledBox",
       "historySize": 9001,
       "colorScheme": "Campbell",
-      "snapOnInput": true
+      "snapOnInput": true,
+      "fontFace": "Fira Code"
     },
     "list": [
       {
