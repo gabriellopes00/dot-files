@@ -32,6 +32,9 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
 	"workbench.iconTheme": "material-icon-theme",
 	"material-icon-theme.folders.associations": {
     "entities": "class",
@@ -42,11 +45,13 @@
     "migrations": "tools",
     "modules": "components",
     "implementations": "core",
+    "interfaces": "core",
 		"dtos": "typescript",
 		"hidden": "private",
 		"restricted": "private",
 		"code": "src",
-		"files": "docs"
+		"files": "docs",
+		"setup": "tools"
   },
 
 	"workbench.colorTheme": "Dracula",

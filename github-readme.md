@@ -8,7 +8,7 @@
 [![Instagram Badge](https://img.shields.io/badge/instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/_.gabriellopes/?hl=pt-br)
 [![StackOverflow Badge](https://img.shields.io/badge/stack%20overflow-FE7A16?logo=stack-overflow&logoColor=white&style=flat-square)](https://stackoverflow.com/users/14099025/gabriel-lopes?tab=profile)
 
-###### An arrow can only be launched if it is pulled back first. So, when life pulls you back with difficulties and challenges, you will surely be launched for something big, and good. Just concentrate and keep aiming. 🏹🛡
+###### Being a developer is a journey, where the next stop is the solution to another problem. So... never stop learning. 💻 
 
 ### :wave: About me
 ##### A web backend student and developer focused on learning back-end and front-and technologies and developing different types of applications, seeking to have clean, readable and high performance code. And always looking to contribute to the community in some way 📚
