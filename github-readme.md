@@ -27,6 +27,6 @@
   <img src="https://devicon.dev/devicon.git/icons/yarn/yarn-original.svg" alt="yarn" width="30" height="30"/>
   <img src="https://devicon.dev/devicon.git/icons/react/react-original.svg" alt="react" width="30" height="30"/> 
   <img src="https://devicon.dev/devicon.git/icons/express/express-original.svg" alt="express" width="30" height="30"/>
+  <img src="https://cdn.svgporn.com/logos/jest.svg" height="30" alt="jest">
   <img src="https://cdn.svgporn.com/logos/ubuntu.svg" height="30" alt="ubuntu">
-  <img src="https://cdn.svgporn.com/logos/terminal.svg" height="30" alt="terminal">
 </div>

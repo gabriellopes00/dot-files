@@ -23,6 +23,8 @@
 	],
 	"sync.gist": "72a4aa47880e2b9088ce9cad270ee8e2",
 	"cSpell.userWords": [
+		"Gmail",
+		"Mailtrap",
 		"middlewares",
 		"typeorm",
 		"varchar"
@@ -51,7 +53,8 @@
 		"restricted": "private",
 		"code": "src",
 		"files": "docs",
-		"setup": "tools"
+		"setup": "tools",
+		"generics": "global"
   },
 
 	"workbench.colorTheme": "Dracula",
