@@ -1,0 +1,20 @@
+[user]
+	email = gabrielluislopes00@gmail.com
+	name = Gabriel Lopes
+[core]
+	editor = code --wait
+[alias]
+	s = !git status -s
+	c = !git add --all && git commit -m
+	l = !git log --pretty=format:'%C(blue)%h%C(magenta)%d %C(white)%s %C(red)❯ %C(cyan)%cn, %C(green)%cr'
+	p = !git push -u origin main
+
+# git log formats --> git log --pretty=format: 'flags here'
+# Flags:
+# %cn -> who did the commit
+# %cr -> relative commit date
+# %H -> commit hash(id)
+# %h -> commit resumed hash(id)
+# %d -> branchs and tags in the commit
+# %s -> commit message
+# %C -> define a color that will be used for each flag, eg: %C(red) || %C(green)...
