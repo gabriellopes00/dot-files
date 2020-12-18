@@ -52,7 +52,9 @@
     "code": "src",
     "files": "docs",
     "setup": "tools",
-    "generics": "global"
+    "generics": "global",
+    "infra": "mappings",
+    "usecases": "controller"
   },
   "colorize.ignore_files_extensions_deprecation": true,
   "colorize.files_extensions": [
@@ -66,5 +68,8 @@
   ],
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.py": "python"
   }
 }
