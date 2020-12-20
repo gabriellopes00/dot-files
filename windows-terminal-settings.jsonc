@@ -2,19 +2,26 @@
 // It should still be usable in newer versions, but newer versions might have additional
 // settings, help text, or changes that you will not see unless you clear this file
 // and let us generate a new one for you.
+
 // To view the default settings, hold "alt" while clicking on the "Settings" button.
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
+
   "theme": "system",
-  "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+
+  "defaultProfile": "{14ad203f-52cc-4110-90d6-d96e0f41b64d}",
   "confirmCloseAllTabs": true,
+
   // You can add more global application settings here.
   // To learn more about global settings, visit https://aka.ms/terminal-global-settings
+
   // If enabled, selections are automatically copied to your clipboard.
   "copyOnSelect": false,
+
   // If enabled, formatted data is also copied to your clipboard
   "copyFormatting": false,
+
   // A profile specifies a command to execute paired with information about how it should look and feel.
   // Each one of them will appear in the 'New Tab' dropdown,
   //   and can be invoked from the commandline with `wt.exe -p xxx`
@@ -41,11 +48,13 @@
         "startingDirectory": "%USERPROFILE%"
         //default icon ==>  %PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico
       },
+
       {
         "name": "Node.JS",
         "commandline": "C:\\Program Files\\nodejs\\node.exe",
         "icon": "C:\\commandline-icons\\file_type_node_icon_130301.ico"
       },
+
       {
         "name": "Deno",
         "commandline": "C:\\Users\\gabri\\.deno\\bin\\deno.exe",
@@ -61,14 +70,14 @@
         "commandline": "C:\\Program Files\\MongoDB\\Server\\4.4\\bin\\mongo.exe",
         "icon": "C:\\commandline-icons\\mongodb.ico"
       },
-      {
-        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-        "hidden": false,
-        "name": "Ubuntu-20.04",
-        "source": "Windows.Terminal.Wsl",
-        "icon": "C:\\commandline-icons\\ubuntu-logo.png",
-        "startingDirectory": "/\\wsl$/\\Ubuntu-20.04/\\home/\\gabriellopes"
-      },
+      // {
+      //   "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+      //   "hidden": false,
+      //   "name": "Ubuntu-20.04",
+      //   "source": "Windows.Terminal.Wsl",
+      //   "icon": "C:\\commandline-icons\\ubuntu-logo.png",
+      //   "startingDirectory": "/\\wsl$/\\Ubuntu-20.04/\\home/\\gabriellopes"
+      // },
       // {
       //   "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
       //   "hidden": false,
@@ -102,13 +111,13 @@
         "hidden": false,
         "name": "PowerShell",
         "source": "Windows.Terminal.PowershellCore"
-      },
-      {
-        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-        "hidden": false,
-        "name": "Ubuntu-20.04",
-        "source": "Windows.Terminal.Wsl"
       } //,
+      // {
+      //     "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+      //     "hidden": false,
+      //     "name": "Ubuntu-20.04",
+      //     "source": "Windows.Terminal.Wsl"
+      // },
       // {
       //     "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
       //     "hidden": false,
@@ -132,9 +141,11 @@
       // }
     ]
   },
+
   // Add custom color schemes to this array.
   // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
   "schemes": [],
+
   // Add custom keybindings to this array.
   // To unbind a key combination from your defaults.json, set the command to "unbound".
   // To learn more about keybindings, visit https://aka.ms/terminal-keybindings
@@ -157,11 +168,13 @@
       "command": "closeTab",
       "keys": "ctrl+w"
     },
+
     // Press Ctrl+Shift+F to open the search box
     {
       "command": "find",
       "keys": "ctrl+f"
     },
+
     // Press Alt+Shift+D to open a new pane.
     // - "split": "auto" makes this pane open in the direction that provides the most surface area.
     // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
