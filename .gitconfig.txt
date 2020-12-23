@@ -8,6 +8,9 @@
 	c = !git add --all && git commit -m
 	l = !git log --pretty=format:'%C(blue)%h%C(magenta)%d %C(white)%s %C(red)❯ %C(cyan)%cn, %C(green)%cr'
 	p = !git push -u origin main
+	kill = !rm -rf .git
+	amend = !git add --all && git commit --amend --no-edit
+	setup = !git clone git@github.com:gabriellopes00/node-project-setup.git
 
 # git log formats --> git log --pretty=format: 'flags here'
 # Flags:
