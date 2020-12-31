@@ -1,0 +1,75 @@
+{
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 20,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "smooth",
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.fontWeight": "100",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.rulers": [80, 120],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 0,
+  "window.titleBarStyle": "custom",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Dracula",
+  "workbench.sideBar.location": "left",
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "sync.gist": "72a4aa47880e2b9088ce9cad270ee8e2",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "tabnine.experimentalAutoImports": true,
+  "cSpell.language": "en,pt-BR,pt",
+  "cSpell.userWords": [
+    "Gmail",
+    "Mailtrap",
+    "middlewares",
+    "typeorm",
+    "varchar"
+  ],
+  "material-icon-theme.folders.associations": {
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "interfaces": "app",
+    "dtos": "typescript",
+    "hidden": "private",
+    "restricted": "private",
+    "code": "src",
+    "files": "docs",
+    "setup": "tools",
+    "generics": "global",
+    "infra": "mappings",
+    "usecases": "controller"
+  },
+  "colorize.ignore_files_extensions_deprecation": true,
+  "colorize.files_extensions": [
+    ".ts",
+    ".js",
+    ".tsx",
+    ".jsx",
+    ".vue",
+    ".css",
+    ".scss"
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.py": "python"
+  }
+}
