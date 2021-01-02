@@ -12,7 +12,7 @@
 
 ### :wave: About me
 
-##### A web backend student and developer focused on learning back-end and front-and technologies and developing different types of applications, seeking to have clean, readable and high performance code. And always looking to contribute to the community in some way 📚
+##### Web developer and student focused on learning back-end and front-end technologies and developing different types of applications, seeking to have clean, readable, structured and high-performance code. And always looking to contribute to the community in some way 📚
 
 ### 🚀 Technologies and Tools ⚙
 
@@ -24,11 +24,8 @@
   <img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original.svg" alt="mysql" width="30" height="30"/>
   <img src="https://devicons.github.io/devicon/devicon.git/icons/mongodb/mongodb-original.svg" alt="mongodb" width="30" height="30"/>
   <img src="https://devicon.dev/devicon.git/icons/vuejs/vuejs-original.svg" alt="vue.js" width="30" height="30"/>  
-  <img src="https://devicon.dev/devicon.git/icons/github/github-original.svg" alt="github" width="30" height="30"/>
-  <img src="https://cdn.svgporn.com/logos/visual-studio-code.svg" height="30">
-  <img src="https://devicon.dev/devicon.git/icons/yarn/yarn-original.svg" alt="yarn" width="30" height="30"/>
   <img src="https://devicon.dev/devicon.git/icons/react/react-original.svg" alt="react" width="30" height="30"/> 
-  <img src="https://devicon.dev/devicon.git/icons/express/express-original.svg" alt="express" width="30" height="30"/>
   <img src="https://cdn.svgporn.com/logos/jest.svg" height="30" alt="jest">
+  <img src="https://cdn.svgporn.com/logos/graphql.svg" height="30" alt="graphql">
   <img src="https://cdn.svgporn.com/logos/ubuntu.svg" height="30" alt="ubuntu">
 </div>
