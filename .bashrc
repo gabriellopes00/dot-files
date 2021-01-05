@@ -100,10 +100,12 @@ alias zc="nano ~/.zshrc"
 alias zs="source ~/.zshrc"
 
 # useful aliases
-alias deno='/home/gabriel/.deno/bin/deno'
+alias up='sudo apt upgrade && sudo apt update && sudo apt dist-upgrade && sudo apt full-upgrade'
+alias clean='sudo apt autoremove --purge && sudo apt autoclean && sudo apt autopurge && sudo apt clean && sudo apt purge'
 alias py='python3'
 alias pip='pip3'
 alias tor='cd /home/gabriel/.exec/tor-browser_en-US/ && ./start-tor-browser.desktop && cd'
+alias deno='/home/gabriel/.deno/bin/deno'
 alias xampp='cd /opt/lampp && sudo ./manager-linux-x64.run && cd'
 alias benchmakr='cd /home/gabriel/.exec/Geekbench-5.3.1-Linux/ && ./geekbench_x86_64 && cd'
 

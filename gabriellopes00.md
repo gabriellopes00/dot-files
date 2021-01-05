@@ -17,15 +17,17 @@
 ### 🚀 Technologies and Tools ⚙
 
 <div class="row">
-  <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="30" height="30"/>
-  <img src="https://devicons.github.io/devicon/devicon.git/icons/typescript/typescript-original.svg" alt="typescript" width="30" height="30"/>
-  <img src="https://devicons.github.io/devicon/devicon.git/icons/git/git-original.svg" alt="git" width="30" height="30"/>
-  <img src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original.svg" alt="nodejs" width="30" height="30"/>
-  <img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original.svg" alt="mysql" width="30" height="30"/>
-  <img src="https://devicons.github.io/devicon/devicon.git/icons/mongodb/mongodb-original.svg" alt="mongodb" width="30" height="30"/>
-  <img src="https://devicon.dev/devicon.git/icons/vuejs/vuejs-original.svg" alt="vue.js" width="30" height="30"/>  
-  <img src="https://devicon.dev/devicon.git/icons/react/react-original.svg" alt="react" width="30" height="30"/> 
+  <img src="https://cdn.svgporn.com/logos/javascript.svg" alt="javascript" width="30" height="30"/>
+  <img src="https://cdn.svgporn.com/logos/typescript-icon.svg" height="30" alt="typescript">
+  <img src="https://cdn.svgporn.com/logos/nodejs-icon.svg" height="30" alt="nodejs">
+  <img src="https://cdn.svgporn.com/logos/git-icon.svg" height="30" alt="git">
+  <img src="https://cdn.svgporn.com/logos/mysql.svg" alt="mysql" width="30" height="30"/>
+  <img src="https://img.icons8.com/color/452/mongodb.png" alt="mongodb" width="35" height="35"/>
+  <img src="https://cdn.svgporn.com/logos/postgresql.svg" alt="postgresql" width="30" height="30"/>
+  <img src="https://cdn.svgporn.com/logos/vue.svg" alt="vue.js" width="30" height="30"/>  
+  <img src="https://cdn.svgporn.com/logos/react.svg" alt="react" width="30" height="30"/> 
   <img src="https://cdn.svgporn.com/logos/jest.svg" height="30" alt="jest">
   <img src="https://cdn.svgporn.com/logos/graphql.svg" height="30" alt="graphql">
-  <img src="https://cdn.svgporn.com/logos/ubuntu.svg" height="30" alt="ubuntu">
+  <img src="https://cdn.svgporn.com/logos/ubuntu.svg" height="30" alt="ubuntu">  
+  <img src="https://cdn.svgporn.com/logos/docker-icon.svg" height="30" alt="docker">
 </div>
