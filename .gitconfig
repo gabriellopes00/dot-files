@@ -13,6 +13,7 @@
 	kill = !rm -rf .git
 	amend = !git add --all && git commit --amend --no-edit
 	setup = !git clone git@github.com:gabriellopes00/node-project-setup.git
+	count = !git shortlog -s --grep
 
 # git log formats --> git log --pretty=format: 'flags here'
 # Flags:
