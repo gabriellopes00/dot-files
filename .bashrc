@@ -101,7 +101,7 @@ alias zs="source ~/.zshrc"
 
 # useful aliases
 alias up='sudo apt upgrade && sudo apt update && sudo apt dist-upgrade && sudo apt full-upgrade'
-alias clean='sudo apt autoremove --purge && sudo apt autoclean && sudo apt autopurge && sudo apt clean && sudo apt purge'
+alias clean='sudo apt autoremove --purge && sudo apt autoclean && sudo apt autopurge && sudo apt clean && sudo apt purge && rm-rf ~/.cache'
 alias py='python3'
 alias pip='pip3'
 alias tor='cd /home/gabriel/.exec/tor-browser_en-US/ && ./start-tor-browser.desktop && cd'

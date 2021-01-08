@@ -90,7 +90,7 @@ alias zs="source ~/.zshrc"
 
 # useful aliases
 alias up='sudo apt upgrade && sudo apt update && sudo apt dist-upgrade && sudo apt full-upgrade'
-alias clean='sudo apt autoremove --purge && sudo apt autoclean && sudo apt autopurge && sudo apt clean && sudo apt purge'
+alias clean='sudo apt autoremove --purge && sudo apt autoclean && sudo apt autopurge && sudo apt clean && sudo apt purge && rm-rf ~/.cache'
 alias deno='/home/gabriel/.deno/bin/deno'
 alias py='python3'
 alias pip='pip3'
