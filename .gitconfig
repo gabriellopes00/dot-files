@@ -7,7 +7,7 @@
 	followTags = true
 [alias]
 	s = !git status -s
-	c = !git add --all && git commit -m
+	c = !git add . && git commit -m
 	l = !git log --pretty=format:'%C(blue)%h%C(magenta)%d %C(white)%s %C(red)❯ %C(cyan)%cn, %C(green)%cr'
 	p = !git push -u origin main
 	kill = !rm -rf .git
