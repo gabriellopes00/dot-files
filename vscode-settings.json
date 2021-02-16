@@ -6,6 +6,7 @@
   "editor.fontLigatures": true,
   "editor.cursorStyle": "line-thin",
   "editor.cursorBlinking": "smooth",
+  "editor.renderLineHighlight": "gutter",
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
   "editor.fontWeight": "100",
@@ -14,31 +15,36 @@
     80,
     120
   ],
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
+  "explorer.confirmDelete": false,
   "prettier.singleQuote": true,
   "prettier.semi": false,
-  "explorer.confirmDelete": false,
   "window.zoomLevel": 0,
   "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "toggle",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Dracula",
   "workbench.sideBar.location": "left",
   "workbench.iconTheme": "material-icon-theme",
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "sync.gist": "72a4aa47880e2b9088ce9cad270ee8e2",
+  "typescript.tsserver.log": "verbose",
+  "typescript.suggest.autoImports": true,
   "liveServer.settings.donotShowInfoMsg": true,
-  "tabnine.experimentalAutoImports": true,
+  "codesnap.backgroundColor": "transparent",
+  "codesnap.transparentBackground": true,
+  "codesnap.boxShadow": "0 0 0",
   "cSpell.language": "en,pt-BR,pt",
   "cSpell.userWords": [
     "Gmail",
     "Mailtrap",
+    "Unmatch",
     "middlewares",
     "typeorm",
+    "usecase",
+    "usecases",
     "varchar"
   ],
+  "material-icon-theme.activeIconPack": "nest",
   "material-icon-theme.folders.associations": {
     "entities": "class",
     "schemas": "class",
@@ -47,7 +53,9 @@
     "http": "container",
     "migrations": "tools",
     "modules": "components",
-    "implementations": "core",
+    "implementations": "plugin",
+    "implementation": "plugin",
+    "main": "core",
     "interfaces": "app",
     "dtos": "typescript",
     "hidden": "private",
@@ -57,17 +65,25 @@
     "setup": "tools",
     "generics": "global",
     "infra": "mappings",
-    "usecases": "controller"
+    "usecases": "controller",
+    "presentation": "client",
+    "domain": "environment",
+    "compositions": "components",
+    "composition": "components"
   },
-  "colorize.ignore_files_extensions_deprecation": true,
-  "colorize.files_extensions": [
-    ".ts",
-    ".js",
-    ".tsx",
-    ".jsx",
-    ".vue",
-    ".css",
-    ".scss"
+  "colorize.languages": [
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "postcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg",
+    "typescript",
+    "javascrip",
+    "json"
   ],
   "files.associations": {
     "*.py": "python"
@@ -77,5 +93,7 @@
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
-  }
+  },
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "workbench.colorTheme": "Dracula"
 }
