@@ -1,6 +1,8 @@
 # zsh aliases
-alias zc="nano ~/.zshrc"
+alias zdit="vim ~/.zshrc"
 alias zs="source ~/.zshrc"
+alias bdit="vim ~/.bashrc"
+alias bs="source ~/.bashrc"
 
 # useful aliases
 alias up='sudo apt upgrade && sudo apt update && sudo apt dist-upgrade && sudo apt full-upgrade'
