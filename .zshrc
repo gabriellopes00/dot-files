@@ -6,6 +6,9 @@ plugins=(git docker docker-compose heroku sudo themes dotenv)
 
 source $ZSH/oh-my-zsh.sh
 
+# default editor
+export EDITOR='vim'
+
 # zsh aliases
 alias zdit="vim ~/.zshrc"
 alias zs="source ~/.zshrc"

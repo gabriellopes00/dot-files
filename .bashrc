@@ -1,3 +1,6 @@
+# default editor
+export EDITOR='vim'
+
 # zsh aliases
 alias zdit="vim ~/.zshrc"
 alias zs="source ~/.zshrc"
