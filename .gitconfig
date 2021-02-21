@@ -2,7 +2,7 @@
 	email = gabrielluislopes00@gmail.com
 	name = Gabriel Lopes
 [core]
-	editor = code --wait
+	editor = vim
 [push]
 	followTags = true
 [alias]

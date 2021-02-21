@@ -4,7 +4,7 @@ alias zs="source ~/.zshrc"
 alias bdit="vim ~/.bashrc"
 alias bs="source ~/.bashrc"
 
-# useful aliases
+# custom aliases
 alias up='sudo apt upgrade && sudo apt update && sudo apt dist-upgrade && sudo apt full-upgrade'
 alias clean='sudo apt autoremove --purge && sudo apt autoclean && sudo apt autopurge && sudo apt clean && sudo apt purge && rm -rf ~/.cache'
 alias py='python3'

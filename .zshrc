@@ -1,9 +1,8 @@
-# ubuntu20.04 ~/.zshrc
-
 export ZSH="/home/gabriellopes/.oh-my-zsh"
-ZSH_THEME="spaceship"
+ZSH_THEME="robbyrussell"
+# ZSH_THEME="spaceship"
 
-plugins=(git)
+plugins=(git docker docker-compose heroku sudo themes dotenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -13,7 +12,7 @@ alias zs="source ~/.zshrc"
 alias bdit="vim ~/.bashrc"
 alias bs="source ~/.bashrc"
 
-# useful aliases
+# custom aliases
 alias up='sudo apt upgrade && sudo apt update && sudo apt dist-upgrade && sudo apt full-upgrade'
 alias clean='sudo apt autoremove --purge && sudo apt autoclean && sudo apt autopurge && sudo apt clean && sudo apt purge && rm -rf ~/.cache'
 alias deno='/home/gabriellopes/.deno/bin/deno'
