@@ -23,3 +23,9 @@ deno
 ssh keys
 git config
 postgresql
+cmatrix
+sneakers
+hollywood
+trash-cli
+ranger
+ncdu
