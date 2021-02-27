@@ -29,3 +29,5 @@ hollywood
 trash-cli
 ranger
 ncdu
+rmlint
+vercel-cli
