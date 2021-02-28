@@ -2,7 +2,7 @@
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
   "editor.lineHeight": 20,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Victor Mono Medium, Jetbrains Mono Light, Anonymous Pro, Fira Code",
   "editor.fontLigatures": true,
   "editor.cursorStyle": "line-thin",
   "editor.cursorBlinking": "smooth",
@@ -15,20 +15,28 @@
     80,
     120
   ],
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   "explorer.confirmDelete": false,
   "prettier.singleQuote": true,
   "prettier.semi": false,
-  "window.zoomLevel": 0,
   "window.titleBarStyle": "custom",
-  "window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "visible",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.sideBar.location": "left",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.tsserver.log": "verbose",
-  "typescript.suggest.autoImports": true,
+  "breadcrumbs.enabled": true,
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
   "liveServer.settings.donotShowInfoMsg": true,
   "codesnap.backgroundColor": "transparent",
   "codesnap.transparentBackground": true,
@@ -39,6 +47,8 @@
     "Mailtrap",
     "Unmatch",
     "middlewares",
+    "psql",
+    "tsnd",
     "typeorm",
     "usecase",
     "usecases",
@@ -93,7 +103,5 @@
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "terminal.integrated.shell.linux": "/usr/bin/zsh",
-  "workbench.colorTheme": "Dracula"
+  }
 }
