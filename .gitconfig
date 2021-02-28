@@ -5,6 +5,8 @@
 	editor = vim
 [push]
 	followTags = true
+[init]
+	defaultBranch = main
 [alias]
 	s = !git status -s
 	c = !git add . && git commit -m
