@@ -1,6 +1,6 @@
 [user]
-	email = gabrielluislopes00@gmail.com
 	name = Gabriel Lopes
+	email = gabrielluislopes00@gmail.com
 [core]
 	editor = vim
 [push]
@@ -8,20 +8,24 @@
 [init]
 	defaultBranch = main
 [alias]
-	s = !git status -s
-	c = !git add . && git commit -m
-	l = !git log --pretty=format:'%C(blue)%h%C(magenta)%d %C(white)%s %C(red)❯ %C(cyan)%cn, %C(green)%cr'
-	p = !git push -u origin main
+	s = status -s
+	c = !git add --all && git commit -m
+	l = log --pretty=format:'%C(blue)%h%C(magenta)%d %C(white)%s %C(red)❯ %C(cyan)%cn %C(blue):: %C(green)%cr'
+	p = push -u origin main
 	kill = !rm -rf .git
 	amend = !git add --all && git commit --amend --no-edit
-	setup = !git clone git@github.com:gabriellopes00/node-project-setup.git
-	count = !git shortlog -s --grep
-		sf = show --name-only
-	incoming = !(git fetch --quiet && git log --pretty=format:'%C(yellow)%h %C(white)- %C(red)%an %C(white)- %C(cyan)%d%Creset %s %C(white)- %ar%Creset' ..@{u})
-  outgoing = !(git fetch --quiet && git log --pretty=format:'%C(yellow)%h %C(white)- %C(red)%an %C(white)- %C(cyan)%d%Creset %s %C(white)- %ar%Creset' @{u}..)
+	setup = clone git@github.com:gabriellopes00/node-project-setup.git
+	count = shortlog -s --grep
+	sf = show --name-only
+	cm = checkout master
+	cb = checkout -b
+	incoming = !(git fetch --quiet && git log --pretty=format:'%C(blue)%h%C(magenta)%d %C(white)%s %C(red)❯ %C(cyan)%cn, %C(green)%cr' ..@{u})
+  outgoing = !(git fetch --quiet && git log --pretty=format:'%C(blue)%h%C(magenta)%d %C(white)%s %C(red)❯ %C(cyan)%cn, %C(green)%cr' @{u}..)
   unstage = reset HEAD --
   undo = checkout --
   rollback = reset --soft HEAD~1
+
+# more customizations => https://gist.github.com/pksunkara/988716 :: https://gist.github.com/diego3g/2b563e54e82bed5530d8346b89a701ab
 
 # git log formats --> git log --pretty=format: 'flags here'
 # Flags:
@@ -32,3 +36,6 @@
 # %d -> branchs and tags in the commit
 # %s -> commit message
 # %C -> define a color that will be used for each flag, eg: %C(red) || %C(green)...
+
+# incoming = !(git fetch --quiet && git log --pretty=format:'%C(yellow)%h %C(white)- %C(red)%an %C(white)- %C(cyan)%d%Creset %s %C(white)- %ar%Creset' ..@{u})
+# outgoing = !(git fetch --quiet && git log --pretty=format:'%C(yellow)%h %C(white)- %C(red)%an %C(white)- %C(cyan)%d%Creset %s %C(white)- %ar%Creset' @{u}..)
