@@ -57,6 +57,8 @@
   "material-icon-theme.activeIconPack": "nest",
   "material-icon-theme.folders.associations": {
     "entities": "class",
+    "paths": "routes",
+    "path": "routes",
     "schemas": "class",
     "typeorm": "database",
     "repositories": "mappings",
