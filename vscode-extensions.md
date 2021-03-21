@@ -1,0 +1,11 @@
+# My Vs Code extensios
+- dracula theme
+- prettier
+- code spell checker 
+- code spell checker portuguese
+- editor config for vscode
+- svg viwer
+- vetur
+- styled components for vscode
+- tailwind css auto-complete
+- bracket pair colorizer 
