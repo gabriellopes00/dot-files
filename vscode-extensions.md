@@ -16,3 +16,4 @@
 - docker
 - dotenv
 - auto rename tag
+- graphql
