@@ -9,3 +9,10 @@
 - styled components for vscode
 - tailwind css auto-complete
 - bracket pair colorizer 
+- code snap 
+- material icon theme
+- python
+- live server
+- docker
+- dotenv
+- auto rename tag
