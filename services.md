@@ -40,3 +40,4 @@
 - mailspring
 - mongodb compass
 - bleanch bit
+- __Victor Mono__ and __Firacode__ fonts
