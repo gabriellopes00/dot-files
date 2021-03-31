@@ -37,7 +37,6 @@
 - insomnia
 - vscode
 - brave browser
-- mailspring
 - mongodb compass
 - bleanch bit
-- __Victor Mono__ and __Firacode__ fonts
+- **Victor Mono** and **Firacode** fonts
