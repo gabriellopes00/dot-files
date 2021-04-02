@@ -17,7 +17,7 @@
 - node
 - nvm
 - yarn
-- htop
+- htop3
 - neofetch
 - expo/heroku cli
 - zoom
@@ -40,3 +40,12 @@
 - mongodb compass
 - bleanch bit
 - **Victor Mono** and **Firacode** fonts
+
+##### Ubuntu utils
+
+- alacarte menu editor
+- unzip
+- gzip
+- unrar
+- synaptic
+- preload
