@@ -3,7 +3,7 @@
 - dracula theme
 - prettier
 - code spell checker
-- code spell checker portuguese
+- portuguese code spell checker
 - editor config for vscode
 - svg viwer
 - vetur

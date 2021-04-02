@@ -9,20 +9,15 @@ source $ZSH/oh-my-zsh.sh
 # default editor
 export EDITOR='vim'
 
-# zsh aliases
+# custom aliases
 alias zdit="vim ~/.zshrc"
 alias zs="source ~/.zshrc"
 alias bdit="vim ~/.bashrc"
 alias bs="source ~/.bashrc"
-
-# custom aliases
-alias up='sudo apt upgrade && sudo apt update && sudo apt dist-upgrade && sudo apt full-upgrade'
-alias clean='sudo apt autoremove --purge && sudo apt autoclean && sudo apt autopurge && sudo apt clean && sudo apt purge && rm -rf ~/.cache'
 alias deno='/home/gabriellopes/.deno/bin/deno'
-alias py='python3'
-alias pip='pip3'
+alias py='python' # python3
+# alias pip='pip3'
 alias tor='cd /home/gabriellopes/.exec/tor-browser_en-US/ && ./start-tor-browser.desktop && cd'
-alias benchmakr='cd /home/gabriellopes/.exec/Geekbench-5.3.1-Linux/ && ./geekbench_x86_64 && cd'
 
 # zinit plugins
 zinit light zsh-users/zsh-autosuggestions
