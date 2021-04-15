@@ -9,7 +9,6 @@ alias bs="source ~/.bashrc"
 alias deno='/home/gabriellopes/.deno/bin/deno'
 alias py='python' # python3
 # alias pip='pip3'
-alias tor='cd /home/gabriellopes/.exec/tor-browser_en-US/ && ./start-tor-browser.desktop && cd'
 
 # nvm settings
 export NVM_DIR="$HOME/.nvm"

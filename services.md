@@ -17,7 +17,7 @@
 - node
 - nvm
 - yarn
-- htop3
+- htop
 - neofetch
 - expo/heroku cli
 - zoom
@@ -49,3 +49,5 @@
 - unrar
 - synaptic
 - preload
+- ubuntu-restricted-extras
+-
