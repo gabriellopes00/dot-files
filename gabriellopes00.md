@@ -30,7 +30,6 @@
   <img src="https://cdn.svgporn.com/logos/react.svg" alt="react" width="30" height="30"/> 
   <img src="https://cdn.svgporn.com/logos/jest.svg" height="30" alt="jest">
   <img src="https://cdn.svgporn.com/logos/graphql.svg" height="30" alt="graphql">
-  <img src="https://cdn.svgporn.com/logos/ubuntu.svg" height="30" alt="ubuntu">  
-  <img src="https://manjaro.org/img/logo.svg" height="30" alt="manjaro">  
+  <img src="https://cdn.svgporn.com/logos/linux-tux.svg" height="30" alt="linux"> 
   <img src="https://cdn.svgporn.com/logos/docker-icon.svg" height="30" alt="docker">
 </div>
