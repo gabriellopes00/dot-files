@@ -1,145 +1,110 @@
-filetype off
-filetype indent on
-filetype plugin indent on
+" Phatogen (NERDTree, vim-airline, vim-autopairs(jiangmiao), surround)
+execute pathogen#infect()
 
-syntax on
+" Vim Plug
+call plug#begin('~/.vim/plugged')
 
-set omnifunc=javascriptcomplete#CompleteJS
-set omnifunc=htmlcomplete#CompleteTags
-set omnifunc=csscomplete#CompleteCSS
-set omnifunc=phpcomplete#CompletePHP
+Plug 'dracula/vim', { 'as': 'dracula' }           " theme
+Plug 'matsuuu/pinkmare'                           " theme
+Plug 'gko/vim-coloresque'                         " color highlight
+Plug 'jparise/vim-graphql'                        " graphql sintax highlighting
+Plug 'airblade/vim-gitgutter'                     " git fixtures
+Plug 'terryma/vim-multiple-cursors'               " multiple cursors (fp<C-n><C-n><C-n>cname)
+Plug 'neoclide/coc.nvim', {'branch': 'release'}   " languages intellicense
+let g:coc_global_extensions = ['coc-tsserver', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier']
 
-set ruler
-set modelines=0
-set wrap
-set scs
+call plug#end()
 
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
-set noshiftround
+"Nerd Tree
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
+    \ quit | endif
 
-set scrolloff=5
+" Airline
+let g:airline_theme = 'dracula'
+let g:airline_powerline_fonts = 1
+
+" vit git-gutter
+nmap ]h <Plug>(GitGutterNextHunk)
+nmap [h <Plug>(GitGutterPrevHunk)
+
+nmap ghs <Plug>(GitGutterStageHunk)
+nmap ghu <Plug>(GitGutterUndoHunk)
+nmap ghp <Plug>(GitGutterPreviewHunk)
+
+omap ih <Plug>(GitGutterTextObjectInnerPending)
+omap ah <Plug>(GitGutterTextObjectOuterPending)
+xmap ih <Plug>(GitGutterTextObjectInnerVisual)
+xmap ah <Plug>(GitGutterTextObjectOuterVisual)
+
+" vim-coc
+source ~/.vim/settings/vim-coc.vim
+
+" custom shortcuts
+nnoremap <leader>; I//<esc>
+
+"colorscheme pinkmare
+"hi! MatchParen cterm=NONE,bold gui=NONE,bold guibg=NONE guifg=#FFFF00
+colorscheme dracula         " theme
+
+let $LANG='en'              " english language
+set langmenu=en             " menu language
+
+filetype off                " disable file type detection
+filetype indent on          " sintax highlight by filetype
+filetype plugin indent on   " use the file type plugins
+
+syntax on               " enable syntax highlighting
+set ruler               " show the cursor position
+set colorcolumn=100     " set a ruler line on 100º column
+set nomodeline          " ignore file’s mode lines; use vimrc configurations instead
+set wrap                " wrap words on screen width
+set linebreak           " avoid wrapping a line in the middle of a word
+set scrolloff=5         " keep 5 lines off the edges of the screen when scrolling
 set backspace=indent,eol,start
 set ttyfast
-set laststatus=2
+set laststatus=2        " tell VIM to always put a status line in, even if there is only one window
+set nu!                 " set number lines
+set noswapfile          " disable swap files
+set nocompatible        " don't try to be vi compatible
+set hidden              " allow open other file if the current is not saved
 
-set showmode
-set showcmd
-set matchpairs+=<:>
+set tabstop=2           " set 2 tab spaces
+set shiftwidth=2        " set 2 shift spaces
+set softtabstop=2       " when hitting <BS>, pretend like a tab is removed, even if spaces
+set expandtab           " expand tabs to spaces by default
+set noshiftround        " don't use multiple of shiftwidth when indenting with '<' and '>'
+set autoindent          " always set autoindenting on
+set copyindent          " copy the previous indentation on autoindenting
+set smarttab            " insert tabs on the start of a line according to shiftwidth, not tabstop
 
-set list
+set showmode            " show current mode (visual, insert, normal...)
+set showcmd             " show (partial) command in the last line of the screen this also shows visual selection info
+
+set showmatch           " show matching parenthesis
+set matchpairs+=<:>     " match pairs with <>
+
+set list                " show empty characters, below the characters...
 set listchars=tab:›\ ,trail:•,extends:#,nbsp:.
-set number
 
-set encoding=utf-8
-set hlsearch
-set incsearch
-set ignorecase
-set smartcase
-set autoindent
+set visualbell          " flash the screen instead of beeping on errors
+set noerrorbells        " don't beep
 
-" Don't try to be vi compatible
-set nocompatible
+set encoding=utf-8      " encoding utf-8
+set termencoding=utf-8  " terminal encoding utf-8
 
-" Helps force plugins to load correctly when it is turned back on below
-filetype off
+set hlsearch            " highlight words in search
+set incsearch           " show search matches as you type
+set ignorecase          " ignore uppercase and lowercase in search, highlight both in search
+set smartcase           " highlight only uppercases if search with uppercase
 
-" TODO: Load plugins here (pathogen or vundle)
+set mouse=a             " use mouse in visual mode
+set cursorline          " highlight line current line number
 
-" Turn on syntax highlighting
-syntax on
-
-" For plugins to load correctly
-filetype plugin indent on
-
-" TODO: Pick a leader key
-" let mapleader = ","
-
-" Security
-set modelines=0
-
-" Show line numbers
-set number
-
-" Show file stats
-set ruler
-
-" Blink cursor on error instead of beeping (grr)
-set visualbell
-
-" Encoding
-set encoding=utf-8
-
-let $LANG='en'
-set langmenu=en
-
-" Whitespace
-set wrap
-set textwidth=79
-set formatoptions=tcqrn1
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
-set noshiftround
-
-" Cursor motion
-set scrolloff=3
-set backspace=indent,eol,start
-set matchpairs+=<:> " use % to jump between pairs
-runtime! macros/matchit.vim
-
-" Move up/down editor lines
-nnoremap j gj
-nnoremap k gk
-
-" Allow hidden buffers
-set hidden
-
-" Rendering
-set ttyfast
-
-" Status bar
-set laststatus=2
-
-" Last line
-set showmode
-set showcmd
-
-" Searching
-nnoremap / /\v
-vnoremap / /\v
-set hlsearch
-set incsearch
-set ignorecase
-set smartcase
-set showmatch
-map <leader><space> :let @/=''<cr> " clear search
-
-" Remap help key.
-inoremap <F1> <ESC>:set invfullscreen<CR>a
-nnoremap <F1> :set invfullscreen<CR>
-vnoremap <F1> :set invfullscreen<CR>
-
-" Textmate holdouts
-
-" Formatting
-map <leader>q gqip
-
-" Visualize tabs and newlines
-set listchars=tab:▸\ ,eol:¬
-" Uncomment this to enable by default:
-" set list " To enable by default
-" Or use your leader key + l to toggle on/off
-map <leader>l :set list!<CR> " Toggle tabs and EOL
-
-" Color scheme (terminal)
-set t_Co=256
-set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
-" put https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
-" in ~/.vim/colors/ and uncomment:
-" colorscheme solarized
+set wildmenu            " make tab completion for files/buffers act like bash
+set wildmode=list:full  " show a list when pressing tab and complete
+set confirm             " confirm menu on exit without saving
+set title               " put filename on title of terminal
